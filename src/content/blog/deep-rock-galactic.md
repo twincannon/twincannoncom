@@ -1,0 +1,34 @@
+---
+title: "Deep Rock Galactic and Design Paralysis"
+description: "Lorem ipsum dolor sit amet"
+pubDate: "May 28 2026"
+heroImage: "/blog-images/drg.jpg"
+---
+
+I've been a fan of Deep Rock Galactic for a long time, and I'm happy that the spinoff, Deep Rock Galactic: Rogue Core, is finally here for us to play. Whereas DRG is a survival co-op mining game where you choose your loadout prior to entering a mission, DRG:RC opts for more of a roguelike experience where you create your build as you play, and death means starting a new run from scratch. The dwarves that you play as in either game can walk, sprint, zipline around, wield a slew of different weapons, dig tunnels, and mine resources - the games share a lot of DNA.
+
+There's currently a big discussion happening within the Rogue Core community about the game's lack of an "auto sprint" function (that is, making characters automatically run instead of walk). The game _sort of_ already has this in that, if you tap the sprint button, you will continue sprinting even without continuing to press the button. However, this isn't good enough to satisfy the community members, who are decrying the lack of autosprint as a basic accessibility option.
+
+According to some of the developers, they are ready and willing to implement it, but the designers at Ghost Ship Games (the developers of the game) simply [do not want to add it](https://old.reddit.com/r/RogueCore/comments/1to545o/auto_sprint_dev_stream/), and are adamant about this stance. Notably, DRG also doesn't have an autosprint, but the argument is that with Rogue Core's faster pace, it is a requirement.
+
+This led me to start thinking about how little changes there have been in both DRG and DRG:RC over the years. While I wasn't in the Rogue Core alpha, people who were reported a distinct lack of changes during its development, and even then as a long-time DRG player the absence of gameplay advancement is evident. Rogue Core is heavily based on DRG, down to having the same equipment items that function identically. Of course, it has a slew of new content as well including new classes and weapons, but the games still share a lot of foundational gameplay.
+
+There is one (and so far that I've seen, only one) distinct design change from the shared mechanics of Deep Rock Galactic to Rogue Core: the ziplines are faster.
+
+The development times of both games are also interesting. Deep Rock Galactic was initially revealed in June 2017, and entered early access in February 2018. This of course doesn't account for development time prior to the announcement, but little is known of that, and it could've been extensive given the game's underlying voxel engine (that said, Ghost Ship Games was only founded a year prior to the reveal). In comparison, Rogue Core was announced in October 2023 and didn't enter early access until May 2026. In addition, the team at GSG is certainly larger and has more resources: DRG was their first game and it was a big success for them, currently sitting at nearly 170,000 Steam reviews, and selling over 10 million copies as of 2024.
+
+All of this means that Rogue Core had much more time in the oven than DRG, especially in terms of man hours and resources. So, why do we see so little in terms of gameplay advancement? What was all the development time of the game spent on?
+
+This is speculation, but I believe the game may have entered a period of what is typically called "development hell". This is when a project's development stalls due to technical or design problems. While it certainly could've been technical, with Rogue Core supposedly having an engine upgrade to Unreal Engine 5, I suspect it's primarily design that got in the way of progress.
+
+Circling back to our autosprint conundrum, with such a small and mostly meaningless change drawing contention amongst the development team, it's not hard to imagine bigger changes causing much larger headaches. With 5 all-new classes each complete with their own ability kits, new upgrades and more; how much time was spent not on the implementation, but on the final design of these systems?
+
+I'm reminded of a point in my own development career, when I was heading the design of a game called [Galacide](https://store.steampowered.com/app/356790/Galacide/). We had a problem with the game's new player experience, notably teaching the player the mechanics of the game and getting them able to properly play it. I must've ground my gears on this aspect of the game, notably the first level on the easiest difficulty, for weeks (which, when we had less than a year to make the game, was a significant chunk of time). In the end we didn't end up making any changes until much later. A lack of understanding of how to play the game ended up hurting us in reviews and player retention.
+
+Rogue Core is currently sitting at a "Mixed" review rating on Steam, with many reviews pointing out common gripes amongst the community, not just for autosprint but about the game's core systems - things like upgrade bartering and the run timer. These are foundational to the games identity and would be huge cans of worms to change. I've also seen the same thoughts elicited from older [video reviews](https://www.youtube.com/watch?v=5SDKgP1itS8) of the alpha state of the game, showing more lack of willingness to change. If autosprint is such a hard thing to get changed, how could we ever expect these massive integral systems to change?
+
+In [Game Balance Isn't Real](https://www.youtube.com/watch?v=uCPQGncOx-Q), Keits goes into how sometimes developers have to sort of "barter" with the players. This doesn't mean giving them exactly what they want, necessarily: it just means addressing their frustrations. In the case of Rogue Core, adding autosprint (or doing something similar, like removing sprint entirely and increasing the default run speed) is a very small ask, especially compared to the more serious complaints.
+
+I mentioned the one thing I've noticed changed so far from Deep Rock Galactic to Rogue Core is the zipline speed. This is, in my opinion, one of many "obvious" changes that should've been made to DRG a long time ago, so I'm glad to see it changed in the new game. In addition to making zipline a more competitive movement tool option (as you now choose between them instead of getting stuck with it as a Gunner), it's just more fun.
+
+DRG has gotten a lot of updates over the years - you can't say Ghost Ship Games hasn't supported it - but the stubbornness to change existing gameplay mechanics has always seemed strange to me, in a game that routinely gets new content, and I fear Rogue Core will go down the same path as DRG. I can already make a list of probably dozens of changes that I personally would make to the game, between the expenite upgrades, artifacts, workbench, bio-boosters, etc. - I just hope the developers free themselves of their apparent design paralysis and let the changes happen.
