@@ -1,0 +1,84 @@
+---
+import Layout from '../../layouts/BlogPost.astro';
+import { Image } from 'astro:assets';
+import dystopia_logo from '../../assets/dystopia_logo.png';
+import dystopia_1 from '../../assets/dystopia_1.jpg';
+import dystopia_2 from '../../assets/dystopia_2.jpg';
+import dystopia_3 from '../../assets/dystopia_3.jpg';
+import dystopia_4 from '../../assets/dystopia_4.jpg';
+import dystopia_5 from '../../assets/dystopia_5.jpg';
+import dystopia_6 from '../../assets/dystopia_6.jpg';
+import dystopia_hammer from '../../assets/dystopia_hammer.png';
+---
+
+<Layout
+	title="Portfolio - Dystopia (2005 - 2026)"
+	description="Portfolio - Dystopia"
+	pubDate={new Date('September 8 2026')}
+	/*heroImage="/blog-placeholder-about.jpg"*/
+>
+	<p>
+		Dystopia is the game that ultimately led me to a career in game development. I started as a level designer for the mod, 
+		and eventually moved into programming and other areas of development. The demo was released in 2005, and I continued to 
+		work on it on and off through 2026.
+	</p>
+	<center>
+		<Image src={dystopia_logo} width=300 alt="Dystopia logo" />
+	</center>
+
+	<p>
+		The game is a multiplayer first person shooter with a cyberpunk theme. Set in a dystopian future where corporations have 
+		taken over the world, players either play as a member of the corporate security forces, or as a punk mercenary, fighting the 
+		corporation.
+	</p>
+
+	<center>
+		<Image src={dystopia_6} alt="Dystopia" />
+	</center>
+
+	<p>
+		The game is built on the Source engine, and I used the Hammer level editor to create levels. I also created custom 
+		models and textures for the game, as well as some of the sound effects.
+	</p>
+
+	<center>
+		<Image src={dystopia_hammer} alt="Dystopia level editor" />
+		<i>Hammer, the Source engine level editor</i>
+	</center>
+
+	<br/>
+	<br/>
+
+	<center>
+		<Image src={dystopia_1} alt="Dystopia" />
+	</center>
+
+	<br/>
+	<br/>
+
+	<center>
+		<Image src={dystopia_2} alt="Dystopia" />
+	</center>
+
+	<br/>
+	<br/>
+
+	<center>
+		<Image src={dystopia_3} alt="Dystopia" />
+	</center>
+
+	<br/>
+	<br/>
+
+	<center>
+		<Image src={dystopia_4} alt="Dystopia" />
+	</center>
+
+	<br/>
+	<br/>
+
+	<center>
+		<Image src={dystopia_5} alt="Dystopia" />
+	</center>
+
+</Layout>

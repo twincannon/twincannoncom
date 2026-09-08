@@ -1,0 +1,55 @@
+---
+import Layout from '../../layouts/BlogPost.astro';
+import { Image } from 'astro:assets';
+import volt_logo from '../../assets/voltstein_logo.png';
+import volt_1 from '../../assets/voltstein_1.png';
+import volt_2 from '../../assets/voltstein_2.jpg';
+---
+
+<Layout
+	title="Portfolio - Voltstein (2009)"
+	description="Portfolio - Voltstein"
+	pubDate={new Date('September 8 2026')}
+	/*heroImage="/blog-placeholder-about.jpg"*/
+>
+	<p>
+		Professor von Voltstein's Capacitor Conundrum was an unreleased game from 2009 by Puny Human wherein 
+		you play as a mad scientist solving puzzles in order to bring monsters to life.
+	</p>
+	<center>
+		<Image src={volt_logo} width=500 alt="Professor von Voltstein's Capacitor Conundrum main menu" />
+	</center>
+
+	<p>
+		Puzzles consisted of various electrical components that would modify the "sparks" that ran along 
+		the wire (which the player would place). Some example puzzle pieces that could appear on the board:
+	</p>
+
+	<ul>
+		<li><b>Resistor:</b> Decreases the voltage of a spark that passes through it by 1.</li>
+		<li><b>Amplifier:</b> Increases the voltage of a spark that passes through it by 1.</li>
+		<li><b>Transformer:</b> Changes the color of a spark that passes through it.</li>
+		<li><b>Capacitor:</b> Repeatedly outputs a copy of the spark that entered it based on the number on the capacitor.</li>
+	</ul>
+
+	<br/>
+
+	<center>
+		<Image src={volt_1} alt="a Professor von Voltstein's Capacitor Conundrum puzzle" />
+		<i>An example puzzle with various components.</i>
+	</center>
+
+	<p>
+		The game consisted of various modes, including the classic puzzle mode where you just have to solve 
+		a single puzzle, bringing one monster to life. In addition, there was a survival mode, where the player 
+		would have to solve numerous puzzles in a row with randomized layouts. Each puzzle solved would spawn 
+		a monster to fight off villagers attacking the castle, represented in a horizontal bar at the top 
+		of the screen.
+	</p>
+
+	<center>
+		<Image src={volt_2} alt="a Professor von Voltstein's Capacitor Conundrum puzzle" />
+		<i>Another example puzzle with different assets.</i>
+	</center>
+	</p>
+</Layout>
