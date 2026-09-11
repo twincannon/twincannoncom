@@ -1,0 +1,61 @@
+---
+import Layout from '../../layouts/BlogPost.astro';
+import { Image } from 'astro:assets';
+import galacide_logo from '../../assets/galacide_logo.png';
+import galacide_1 from '../../assets/galacide_1.jpg';
+import galacide_2 from '../../assets/galacide_2.jpg';
+import galacide_3 from '../../assets/galacide_3.jpg';	
+---
+
+<Layout
+	title="Portfolio - Galacide (2015)"
+	description="Portfolio - Galacide"
+	pubDate={new Date('September 11 2026')}
+	/*heroImage="../src/assets/galacide_logo.png"*/
+>
+
+	<center>
+		<Image src={galacide_logo} alt="Galacide" width="400" />
+	</center>
+
+	<p>
+		Galacide is a cross between a puzzle game and a traditional space shoot-em-up. The player controls a ship that 
+		can shoot down enemies, which drop "scrap" that must be picked up to clear the "bits" that block the player 
+		from proressing forward. Each ship has unique weapons and abilities.
+	</p>
+
+	<center>
+		<iframe
+			width="560"
+			height="315"
+			src="https://www.youtube.com/embed/olneAvBf6Og"
+			title="YouTube video"
+			frameborder="0"
+			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+			allowfullscreen>
+		</iframe>
+	</center>
+
+	<p>
+		While working on Galacide, I served as the lead designer, as well as doing duties including programming, level 
+		design, visual effects, sound effects, and enemy and boss scripting. The game was built using the Unreal engine.
+	</p>
+
+	<center>
+		<Image src={galacide_1} alt="Galacide" />
+	</center>
+
+	<br/>
+
+	<center>
+		<Image src={galacide_2} alt="Galacide" />
+	</center>
+
+	<br/>
+
+	<center>
+		<Image src={galacide_3} alt="Galacide" />
+	</center>
+
+
+</Layout>

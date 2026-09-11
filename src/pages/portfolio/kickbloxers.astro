@@ -1,0 +1,31 @@
+---
+import Layout from '../../layouts/BlogPost.astro';
+import { Image } from 'astro:assets';
+import dystopia_logo from '../../assets/dystopia_logo.png';
+---
+
+<Layout
+	title="Portfolio - Kickbloxers (2020)"
+	description="Portfolio - Kickbloxers"
+	pubDate={new Date('September 8 2026')}
+	/*heroImage="/blog-placeholder-about.jpg"*/
+>
+	<p>
+		Kickbloxers was a multiplayer puzzle game I worked on at Puny Human in 2020. It featured multiple game modes, 
+		including a competitive mode where players would make puzzle matches in order to push the opponents off of 
+		the level. It was made on Unreal Engine 4 and was fully networked.
+	</p>
+
+	<center>
+		<iframe
+			width="560"
+			height="315"
+			src="https://www.youtube.com/embed/YIbhFfrnbyQ"
+			title="YouTube video"
+			frameborder="0"
+			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+			allowfullscreen>
+		</iframe>
+	</center>
+
+</Layout>
